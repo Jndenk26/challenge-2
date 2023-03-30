@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: grey;
+}
+
+header h1 {
+    padding-left: 50px;
+    display: block;
+    background-color: #368BC1;
+    color: whitesmoke
+}
+
+header nav ul {
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-end;
+align-items: center;    
+list-style: none;
+padding-right: 0px;
+}
+
+header nav ul li {
+    font-size: 1.8vw;
+    padding: 10px 15px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: white
+}
+
+.span-background.title {
+    margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.hero {
+    height: 300px;
+    background-image: url("../images/Hero.png");
+    border-bottom-left-radius: 30px 30px;
+    border-bottom-right-radius: 30px 30px;
+    background-size: cover;
+    background-position: 100% 13%;
+    background-attachment: fixed;
+    display: flex;
+    flex-wrap: flex-end;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.hero-subtitle {
+    padding-bottom: 15px;
+    padding-right: 15px;
+    justify-content: flex-end;
+  }
+
+  p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.project {
+    width: 50%;
+}
+
+.horiseon {
+   background-image: url(../images/horiseon.png);
+    width: 100%;
+    height: 400px;
+}
+
+.led {
+    background-image: url(../images/LED\ Wall.png);
+   height: 300px;
+}
+
+.calculator {
+    background-image: url(../images/Calculator\ .png);
+    height: 300px;
+}
+
+.run {
+    background-image: url(../images/Run\ Buddy.png);
+    height: 300px;
+}
+
+.pretzel {
+    background-image: url(../images/Pastel\ Puzzles.png);
+    height: 300px;
+}
+
+footer {
+    justify-content: space-around;
+    display: inline;
+}
+
+body {
+    background-color: lightslategrey;
+}
+
+h3 {
+    color: Black;
+    background-color: lightblue;
+}
+
+main {
+display: flex;
+flex-wrap: wrap;
+}
+
+.subtitle {
+background-color: #368BC1;
+color: white
+}
+
+div {
+    background-color: #368BC1;
+    color: white;
+    justify-content: center;
+}
+
+p {
+font-size: larger;
+}
+
+aside{
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    *50%
+};
